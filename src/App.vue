@@ -22,5 +22,6 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/scss/my_colors.scss';
 @import "~bootstrap/scss/bootstrap";
 </style>

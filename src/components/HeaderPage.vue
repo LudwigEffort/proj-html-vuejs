@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>This is header...</h1>
+    <h1>This is the header...</h1>
   </header>
 </template>
 
