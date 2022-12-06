@@ -112,6 +112,45 @@
         </button>
       </div>
     </div>
+    <div class="header_info_container">
+      <div class="container-lg text-start py-5">
+        <div class="row row-cols-3 justify-content-center">
+          <div class="col">
+            <h4>Who we are</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
+              recusandae veniam fuga veritatis cumque magnam.
+            </p>
+            <a
+              href="#"
+              class="link-primary"
+            >Learn More</a>
+          </div>
+          <div class="col">
+            <h4>Who we do</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
+              recusandae veniam fuga veritatis cumque magnam.
+            </p>
+            <a
+              href="#"
+              class="link-primary"
+            >Learn More</a>
+          </div>
+          <div class="col">
+            <h4>Why us?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
+              recusandae veniam fuga veritatis cumque magnam.
+            </p>
+            <a
+              href="#"
+              class="link-primary"
+            >Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 </template>
 
@@ -132,5 +171,8 @@ export default {
 .title_header_container h1 {
   font-weight: bold;
   font-size: 5rem;
+}
+.header_info_container a {
+  text-decoration: none;
 }
 </style>
