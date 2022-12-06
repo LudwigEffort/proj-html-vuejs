@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-lg blue">
+      <div class="container-lg">
         <a
           class="navbar-brand"
           href="#"
@@ -79,7 +79,7 @@
               >Shortcodes</a>
             </li>
           </ul>
-          <span>icon</span>
+          <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
         </div>
       </div>
     </nav>
