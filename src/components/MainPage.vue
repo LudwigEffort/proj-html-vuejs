@@ -1,7 +1,5 @@
 <template>
-  <main>
-    <h1>This is the main...</h1>
-  </main>
+  <main />
 </template>
 
 <script>
