@@ -24,4 +24,7 @@ export default {
 <style lang="scss">
 @import './assets/scss/my_colors.scss';
 @import "~bootstrap/scss/bootstrap";
+:root .btn-primary {
+  --bs-btn-color: white;
+}
 </style>
