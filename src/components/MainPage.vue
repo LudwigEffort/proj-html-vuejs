@@ -318,6 +318,71 @@
         </div>
       </div>
     </div>
+    <!-- Seventh part (tickets) -->
+    <div class="tickets_container">
+      <div class="container container-lg text-center p-5">
+        <h1>Tickets</h1>
+        <div class="row row-cols-3 justify-content-center">
+          <!-- First card -->
+          <div class="col">
+            <div class="card_container">
+              <div class="card_header px-5 py-3">
+                <h4>One Day Pass</h4>
+                <h5>Free</h5>
+              </div>
+              <div class="card_text px-5 py-3">
+                <p>One Day Access</p>
+                <p>Coffee Break</p>
+                <p>Lunch (International Buffet)</p>
+                <p>Document Sheets</p>
+                <p>50$ Voucher For Next Event</p>
+              </div>
+              <div class="card_button px-5 py-3">
+                <h5>Book Now</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Second card -->
+          <div class="col">
+            <div class="card_container">
+              <div class="card_header px-5 py-3">
+                <h4>One Day Pass</h4>
+                <h5>Free</h5>
+              </div>
+              <div class="card_text px-5 py-3">
+                <p>One Day Access</p>
+                <p>Coffee Break</p>
+                <p>Lunch (International Buffet)</p>
+                <p>Document Sheets</p>
+                <p>50$ Voucher For Next Event</p>
+              </div>
+              <div class="card_button px-5 py-3">
+                <h5>Book Now</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Third card -->
+          <div class="col">
+            <div class="card_container">
+              <div class="card_header px-5 py-3">
+                <h4>One Day Pass</h4>
+                <h5>Free</h5>
+              </div>
+              <div class="card_text px-5 py-3">
+                <p>One Day Access</p>
+                <p>Coffee Break</p>
+                <p>Lunch (International Buffet)</p>
+                <p>Document Sheets</p>
+                <p>50$ Voucher For Next Event</p>
+              </div>
+              <div class="card_button px-5 py-3">
+                <h5>Book Now</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
@@ -388,5 +453,23 @@ export default {
 }
 .contacts span {
   margin: 0 1rem;
+}
+.tickets_container {
+  background-image: url(../assets/img/ticket-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tickets_container h1 {
+  color: white;
+}
+.card_container {
+  background-color: white;
+}
+.card_header {
+  background-color: lightgrey;
+}
+.card_button {
+  background-color: #F62B0A;
 }
 </style>
