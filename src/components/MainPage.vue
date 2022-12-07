@@ -145,6 +145,95 @@
         </div>
       </div>
     </div>
+    <!-- Third part -->
+    <div class="program_container">
+      <div class="container container-lg py-5">
+        <!-- Title -->
+        <div class="text-center program_title">
+          <div class="row align-items-center">
+            <div class="col-3 text-start">
+              <h1>Program</h1>
+            </div>
+            <div class="col-6 text-start">
+              <p>
+                This conference run throught all 4 day from 23 - 26 May 2016.
+                <br>Whe also provide free lunch and coffee break in each day.
+              </p>
+            </div>
+            <div class="col-3 text-end">
+              <a
+                href="#"
+                class="link-primary"
+              >View Full Program</a>
+            </div>
+          </div>
+        </div>
+        <!-- Table -->
+        <div class="program_table">
+          <div class="program_bar">
+            <div class="row text-start">
+              <div class="col-2 program_day">
+                <div>
+                  <h5>Day 1</h5>
+                  <p>22 May 2016</p>
+                </div>
+              </div>
+              <div class="col-2 border-start border-dark program_day">
+                <div>
+                  <h5>Day 2</h5>
+                  <p>23 May 2016</p>
+                </div>
+              </div>
+              <div class="col-2 border-start border-dark program_day">
+                <div>
+                  <h5>Day 3</h5>
+                  <p>24 May 2016</p>
+                </div>
+              </div>
+              <div class="col-2 border-start border-dark program_day">
+                <div>
+                  <h5>Day 4</h5>
+                  <p>25 May 2016</p>
+                </div>
+              </div>
+              <div class="col-2 border-start border-end border-dark program_day">
+                <div>
+                  <h5>Day 5</h5>
+                  <p>26 May 2016</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="program_content">
+            <div class="row p-5">
+              <div class="col-3">
+                <div>
+                  <p>09:00 - 10:30</p>
+                  <p>Rome</p>
+                  <p>Laurence Francis</p>
+                </div>
+              </div>
+              <div class="col-9">
+                <div>
+                  <h1>Welcoming and introduction</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore mollitia nemo debitis laboriosam facere voluptas.
+                    Voluptate cupiditate eos est vitae facilis culpa illum ipsam sint!
+                  </p>
+                  <img
+                    class="img-fluid"
+                    src="../assets/img/speaker-8-150x150.jpg"
+                    alt=""
+                    style="width: 50px"
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
@@ -166,5 +255,18 @@ export default {
   color: white;
   border-radius: 10px;
   padding: 1rem 2rem;
+}
+.speakers_container {
+  background-color: #F3F3F3;
+}
+.program_title p {
+  font-size: 14px;
+}
+.program_bar  {
+  background-color: #F62B0A;
+  color: white;
+}
+.program_day {
+  padding: 1rem 1.15rem;
 }
 </style>
