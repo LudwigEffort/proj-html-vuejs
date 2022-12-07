@@ -1,6 +1,6 @@
 <template>
   <main>
-    <!-- First part -->
+    <!-- First part (countdown) -->
     <div class="countdown_container">
       <div class="container container-lg text-center py-5">
         <div class="row row-cols-auto justify-content-center gx-5">
@@ -57,18 +57,18 @@
             <h3>Subscirbe for updates</h3>
           </div>
           <div class="col">
-            <label
-              for="email"
-            >
-              <div class="input-group">
-                <input
-                  id="email"
-                  type="text"
-                  class="form-control"
-                  placeholder="Please fill your email"
-                >
-              </div>
-            </label>
+            <div class="input-group">
+              <label
+                htmlFor="email"
+              >Ok</label>
+              <input
+                id="email"
+                name="email"
+                type="text"
+                class="form-control"
+                placeholder="Please fill your email"
+              >
+            </div>
           </div>
 
           <div class="col">
@@ -82,7 +82,7 @@
         </form> -->
       </div>
     </div>
-    <!-- Second part -->
+    <!-- Second part (speakers) -->
     <div class="speakers_container">
       <div class="container container-lg text-center py-5">
         <div class="row row-cols-auto justify-content-between">
@@ -145,7 +145,7 @@
         </div>
       </div>
     </div>
-    <!-- Third part -->
+    <!-- Third part (program) -->
     <div class="program_container">
       <div class="container container-lg py-5">
         <!-- Title -->
@@ -234,6 +234,90 @@
         </div>
       </div>
     </div>
+    <!-- Fourth part (map) -->
+    <div class="map_container">
+      <div class="map" />
+    </div>
+    <!-- Fifth part (location) -->
+    <div class="location_container">
+      <div class="container container-lg text-center p-5">
+        <h1>Location</h1>
+        <h2>GD Building, Grand Conferece Room</h2>
+        <h6>11 GD Building, River Mail, new yourk, USA 8879</h6>
+        <p>Check For Accommodatiosn Here</p>
+        <div class="contacts">
+          <span>+1-112-222-3344</span>
+          <span>contact@thekeynotetheme.com</span>
+        </div>
+      </div>
+    </div>
+    <!-- Sixth part (recent news) -->
+    <div class="container container-lg text-center p-5">
+      <div class="row row-cols-auto align-items-center justify-content-between">
+        <div class="col">
+          <h2>Recent News</h2>
+        </div>
+        <div class="col">
+          <a
+            href="#"
+            class="link-primary"
+          >Read All News</a>
+        </div>
+      </div>
+      <div class="row row-cols-3">
+        <div class="col text-start">
+          <img
+            class="img-fluid"
+            src="../assets/img/photodune-7770665-two-white-coffee-mug-with-diy-decoration-o.jpg"
+            alt=""
+          >
+          <p>03 Dec 2013 / 0 Comments</p>
+          <h4>Sedial Eiusmod Tempor</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Magni quisquam molestias maxime dolore dolorem voluptatem!
+          </p>
+          <a
+            href="#"
+            class="link-primary"
+          >Read More</a>
+        </div>
+        <div class="col text-start">
+          <img
+            class="img-fluid"
+            src="../assets/img/photodune-7770665-two-white-coffee-mug-with-diy-decoration-o.jpg"
+            alt=""
+          >
+          <p>03 Dec 2013 / 0 Comments</p>
+          <h4>Sedial Eiusmod Tempor</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Magni quisquam molestias maxime dolore dolorem voluptatem!
+          </p>
+          <a
+            href="#"
+            class="link-primary"
+          >Read More</a>
+        </div>
+        <div class="col text-start">
+          <img
+            class="img-fluid"
+            src="../assets/img/photodune-7770665-two-white-coffee-mug-with-diy-decoration-o.jpg"
+            alt=""
+          >
+          <p>03 Dec 2013 / 0 Comments</p>
+          <h4>Sedial Eiusmod Tempor</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Magni quisquam molestias maxime dolore dolorem voluptatem!
+          </p>
+          <a
+            href="#"
+            class="link-primary"
+          >Read More</a>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
@@ -268,5 +352,41 @@ export default {
 }
 .program_day {
   padding: 1rem 1.15rem;
+}
+.program_content {
+  background-color: #F3F3F3;
+}
+.map {
+  height: 300px;
+  background-color: antiquewhite;
+}
+.location_container {
+  color: white;
+  background-image: url(../assets/img/location-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.location_container h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.location_container h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.location_container h6 {
+  margin-bottom: 1.5rem;
+}
+.location_container p {
+  color: #F62B0A;
+  margin-bottom: 2.5rem;
+}
+.contacts {
+  border-top: 2px solid white;
+}
+.contacts span {
+  margin: 0 1rem;
 }
 </style>
