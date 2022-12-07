@@ -85,16 +85,62 @@
     <!-- Second part -->
     <div class="speakers_container">
       <div class="container container-lg text-center py-5">
-        <div class="row row-cols-auto">
+        <div class="row row-cols-auto justify-content-between">
           <div class="col">
             <h2>Speakers</h2>
           </div>
           <div class="col">
             <button class="btn btn-primary">
-              Left
+              &lt;
             </button><button class="btn btn-primary">
-              Right
+              &gt;
             </button>
+          </div>
+        </div>
+        <div class="row row-cols-4">
+          <div class="col">
+            <div class="speaker_card">
+              <img
+                class="img-fluid"
+                src="../assets/img/speaker-1.jpg"
+                alt=""
+              >
+              <h1>Tizio Caio</h1>
+              <p>Boolflix CEO</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="speaker_card">
+              <img
+                class="img-fluid"
+                src="../assets/img/speaker-1.jpg"
+                alt=""
+              >
+              <h1>Tizio Caio</h1>
+              <p>Boolflix CEO</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="speaker_card">
+              <img
+                class="img-fluid"
+                src="../assets/img/speaker-1.jpg"
+                alt=""
+              >
+              <h1>Tizio Caio</h1>
+              <p>Boolflix CEO</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="speaker_card">
+              <img
+                class="img-fluid"
+                src="../assets/img/speaker-1.jpg"
+                alt=""
+              >
+              <h1>Tizio Caio</h1>
+              <p>Boolflix CEO</p>
+            </div>
           </div>
         </div>
       </div>
