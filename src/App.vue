@@ -27,4 +27,8 @@ export default {
 :root .btn-primary {
   --bs-btn-color: white;
 }
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 </style>
