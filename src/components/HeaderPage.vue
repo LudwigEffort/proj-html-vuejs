@@ -1,7 +1,7 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-lg">
+    <nav class="navbar navbar-expand-lg bg-light navbar_container">
+      <div class="container container-lg">
         <a
           class="navbar-brand"
           href="#"
@@ -161,6 +161,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+header {
+  text-transform: uppercase;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar_container .nav-item .nav-link:hover {
+  color: #F62B0A;
+}
+.navbar_container .nav-item:hover {
+  border-bottom: 3px solid #f62b0a;
+}
 .title_header_container{
   background-image: url(../assets/img/slider-1-bg.jpg);
   color: white;
@@ -172,7 +185,21 @@ export default {
   font-weight: bold;
   font-size: 5rem;
 }
+.header_info_container p {
+  text-transform: none;
+}
 .header_info_container a {
   text-decoration: none;
+  text-transform: none;
+  font-style: italic;
+}
+.header_info_container h4:before {
+  content: "\f099";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: lightgrey;
+  font-size: 1.5rem;
 }
 </style>
