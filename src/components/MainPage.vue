@@ -235,9 +235,7 @@
       </div>
     </div>
     <!-- Fourth part (map) -->
-    <div class="map_container">
-      <div class="map" />
-    </div>
+    <div class="map_container" />
     <!-- Fifth part (location) -->
     <div class="location_container">
       <div class="container container-lg text-center p-5">
@@ -532,9 +530,12 @@ export default {
 .program_content {
   background-color: #F3F3F3;
 }
-.map {
-  height: 300px;
-  background-color: antiquewhite;
+.map_container {
+  height: 500px;
+  background-image: url(../assets/img/maps_screenshot.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .location_container {
   color: white;
