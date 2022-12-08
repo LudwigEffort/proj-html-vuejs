@@ -383,6 +383,62 @@
         </div>
       </div>
     </div>
+    <div class="presentation_container">
+      <div class="container container-lg p-4">
+        <div class="row row-cols-auto">
+          <div class="col-7 p-3">
+            <div>
+              <h2>Presentation</h2>
+              <img
+                class="img-fluid"
+                src="../assets/img/461365506_640.jpg"
+                alt=""
+                style="margin-left: 2rem;"
+              >
+            </div>
+          </div>
+          <div class="col-5 p-3">
+            <h2>Twitter feed</h2>
+            <div class="presentation_text">
+              <ul>
+                <li>
+                  Stand out and be vibrant with some of the best bright and bold tempaltes on
+                  <a
+                    href="#"
+                    class="link-primary"
+                  >@Envato</a>
+                  Elements And add a splash of c...
+                  <a
+                    href="#"
+                    class="link-primary"
+                  >https://t.co/jFrsnEJK7</a>.
+                  <br> <span>3 days ago.</span>
+                </li>
+                <li>
+                  Do you need to deliver the perfect presentation or creative pitch?
+                  Sure, your ideas and plan need to be on-oint, b...
+                  <a
+                    href="#"
+                    class="link-primary"
+                  >https://t.co/nCmvsJVDpW</a>.
+                  <br> <span>9 days ago.</span>
+                </li>
+                <li>
+                  Out yourself a pice of the BFCM sales pie with a solid marketin plan.
+                  Here are 5 ways to optimize your content fo...
+                  <a
+                    href="#"
+                    class="link-primary"
+                  >https://t.co/UZfKHshEOT</a>.
+                  <br> <span>11 days ago.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col" />
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
@@ -471,5 +527,23 @@ export default {
 }
 .card_button {
   background-color: #F62B0A;
+}
+.presentation_text ul {
+  list-style: none;
+}
+.presentation_text li {
+  margin-bottom: 1.5rem;
+}
+.presentation_text li:before {
+  content: "\f099";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: #47BDEE;
+  font-size: 1.5rem;
+}
+.presentation_text li span {
+  font-style: italic;
 }
 </style>
