@@ -383,6 +383,7 @@
         </div>
       </div>
     </div>
+    <!-- Eighth part (presentation) -->
     <div class="presentation_container">
       <div class="container container-lg p-4">
         <div class="row row-cols-auto">
@@ -390,7 +391,7 @@
             <div>
               <h2>Presentation</h2>
               <img
-                class="img-fluid"
+                class="img-fluid py-3"
                 src="../assets/img/461365506_640.jpg"
                 alt=""
                 style="margin-left: 2rem;"
@@ -399,7 +400,7 @@
           </div>
           <div class="col-5 p-3">
             <h2>Twitter feed</h2>
-            <div class="presentation_text">
+            <div class="presentation_text py-3">
               <ul>
                 <li>
                   Stand out and be vibrant with some of the best bright and bold tempaltes on
@@ -436,6 +437,60 @@
             </div>
           </div>
           <div class="col" />
+        </div>
+      </div>
+    </div>
+    <!-- Nineth part (sponsors) -->
+    <div class="sponsors_container">
+      <div class="container container-lg text-center p-5">
+        <h1>Sponsors</h1>
+        <p>
+          Maecenas faucibus mollis interdum. Nullam id dolor
+          <br> id nibh ultricies vehicula ut id elit.
+        </p>
+        <div class="row row-cols-6">
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="../assets/img/banner-1.jpg"
+              alt=""
+            >
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="../assets/img/banner-2.jpg"
+              alt=""
+            >
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="../assets/img/banner-3.jpg"
+              alt=""
+            >
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="../assets/img/banner-4.jpg"
+              alt=""
+            >
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="../assets/img/banner-5.jpg"
+              alt=""
+            >
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="../assets/img/banner-6.jpg"
+              alt=""
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -545,5 +600,8 @@ export default {
 }
 .presentation_text li span {
   font-style: italic;
+}
+.sponsors_container {
+  background-color: #F3F3F3;
 }
 </style>
