@@ -5,25 +5,37 @@
       <div class="container container-lg text-center py-5">
         <div class="row row-cols-auto justify-content-center gx-3 countdown">
           <div class="col">
-            <div class="countdown_card">
+            <div
+              class="countdown_card"
+              style="opacity: 80%;"
+            >
               <h3>3399</h3>
               <p>Days</p>
             </div>
           </div>
           <div class="col">
-            <div class="countdown_card">
+            <div
+              class="countdown_card"
+              style="opacity: 70%;"
+            >
               <h3>17</h3>
               <p>Hours</p>
             </div>
           </div>
           <div class="col">
-            <div class="countdown_card">
+            <div
+              class="countdown_card"
+              style="opacity: 60%;"
+            >
               <h3>28</h3>
               <p>Mins</p>
             </div>
           </div>
           <div class="col">
-            <div class="countdown_card">
+            <div
+              class="countdown_card"
+              style="opacity: 50%;"
+            >
               <h3>17</h3>
               <p>Secs</p>
             </div>
