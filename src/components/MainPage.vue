@@ -259,7 +259,7 @@
     <div class="location_container">
       <div class="container container-lg text-center p-5">
         <div class="row row-cols-auto justify-content-center">
-          <div class="col">
+          <div class="col-12">
             <h1>Location</h1>
             <h2>GD Building, Grand Conferece Room</h2>
             <h6>11 GD Building, River Mail, new yourk, USA 8879</h6>
