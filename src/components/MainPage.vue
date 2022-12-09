@@ -369,8 +369,8 @@
           <div class="col">
             <div class="card_container">
               <div class="card_header px-5 py-3">
-                <h4>One Day Pass</h4>
-                <h5>Free</h5>
+                <h4>Four Day Pass</h4>
+                <h5>750.00 $</h5>
               </div>
               <div class="card_text px-5 py-3">
                 <p>One Day Access</p>
@@ -388,8 +388,8 @@
           <div class="col">
             <div class="card_container">
               <div class="card_header px-5 py-3">
-                <h4>One Day Pass</h4>
-                <h5>Free</h5>
+                <h4>Two Day Pass</h4>
+                <h5>580.00 $</h5>
               </div>
               <div class="card_text px-5 py-3">
                 <p>One Day Access</p>
@@ -695,6 +695,9 @@ export default {
 }
 .tickets_container h1 {
   color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 .card_container {
   background-color: white;
@@ -702,8 +705,23 @@ export default {
 .card_header {
   background-color: lightgrey;
 }
+.card_header h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.card_header h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #F62B0A;
+}
 .card_button {
   background-color: #F62B0A;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.card_button h5 {
+  font-weight: bold;
 }
 .presentation_text ul {
   list-style: none;
