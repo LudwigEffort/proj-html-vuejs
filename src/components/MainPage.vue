@@ -3,36 +3,36 @@
     <!-- First part (countdown) -->
     <div class="countdown_container">
       <div class="container container-lg text-center py-5">
-        <div class="row row-cols-auto justify-content-center gx-5">
+        <div class="row row-cols-auto justify-content-center gx-3 countdown">
           <div class="col">
             <div class="countdown_card">
-              <h4>3399</h4>
+              <h3>3399</h3>
               <p>Days</p>
             </div>
           </div>
           <div class="col">
             <div class="countdown_card">
-              <h4>17</h4>
+              <h3>17</h3>
               <p>Hours</p>
             </div>
           </div>
           <div class="col">
             <div class="countdown_card">
-              <h4>28</h4>
+              <h3>28</h3>
               <p>Mins</p>
             </div>
           </div>
           <div class="col">
             <div class="countdown_card">
-              <h4>17</h4>
+              <h3>17</h3>
               <p>Secs</p>
             </div>
           </div>
         </div>
         <!-- Form by boolflix -->
-        <div class="row row-cols-auto justify-content-center">
+        <div class="row row-cols-auto justify-content-center email_form">
           <div class="col col-12">
-            <h3>Subscibe for updates</h3>
+            <h5>Subscibe for updates</h5>
           </div>
           <div class="col">
             <form
@@ -42,11 +42,11 @@
               <input
                 class="form-control me-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Please fill your email"
                 aria-label="Search"
               >
               <button class="btn btn-primary">
-                test
+                subscribe
               </button>
             </form>
           </div>
@@ -513,6 +513,25 @@ export default {
   color: white;
   border-radius: 10px;
   padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+.countdown_card h3 {
+  font-weight: bold;
+}
+.countdown {
+  margin-bottom: 1.5rem;
+}
+.email_form h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.email_form input {
+  border-radius: 0;
+}
+.email_form button {
+  border-radius: 0;
+  border-bottom: 3px solid #A72510;
 }
 .speakers_container {
   background-color: #F3F3F3;
