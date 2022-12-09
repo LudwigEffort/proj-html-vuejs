@@ -354,11 +354,13 @@
                 <h5>Free</h5>
               </div>
               <div class="card_text px-5 py-3">
-                <p>One Day Access</p>
-                <p>Coffee Break</p>
-                <p>Lunch (International Buffet)</p>
-                <p>Document Sheets</p>
-                <p>50$ Voucher For Next Event</p>
+                <ul>
+                  <li>One Day Access</li>
+                  <li>Coffee Break</li>
+                  <li>Lunch (International Buffet)</li>
+                  <li>Document Sheets</li>
+                  <li>50$ Voucher For Next Event</li>
+                </ul>
               </div>
               <div class="card_button px-5 py-3">
                 <h5>Book Now</h5>
@@ -373,11 +375,13 @@
                 <h5>750.00 $</h5>
               </div>
               <div class="card_text px-5 py-3">
-                <p>One Day Access</p>
-                <p>Coffee Break</p>
-                <p>Lunch (International Buffet)</p>
-                <p>Document Sheets</p>
-                <p>50$ Voucher For Next Event</p>
+                <ul>
+                  <li>One Day Access</li>
+                  <li>Coffee Break</li>
+                  <li>Lunch (International Buffet)</li>
+                  <li>Document Sheets</li>
+                  <li>50$ Voucher For Next Event</li>
+                </ul>
               </div>
               <div class="card_button px-5 py-3">
                 <h5>Book Now</h5>
@@ -392,11 +396,13 @@
                 <h5>580.00 $</h5>
               </div>
               <div class="card_text px-5 py-3">
-                <p>One Day Access</p>
-                <p>Coffee Break</p>
-                <p>Lunch (International Buffet)</p>
-                <p>Document Sheets</p>
-                <p>50$ Voucher For Next Event</p>
+                <ul>
+                  <li>One Day Access</li>
+                  <li>Coffee Break</li>
+                  <li>Lunch (International Buffet)</li>
+                  <li>Document Sheets</li>
+                  <li>50$ Voucher For Next Event</li>
+                </ul>
               </div>
               <div class="card_button px-5 py-3">
                 <h5>Book Now</h5>
@@ -417,7 +423,6 @@
                 class="img-fluid py-3"
                 src="../assets/img/461365506_640.jpg"
                 alt=""
-                style="margin-left: 2rem;"
               >
             </div>
           </div>
@@ -721,6 +726,13 @@ export default {
   cursor: pointer;
 }
 .card_button h5 {
+  font-weight: bold;
+}
+.card_text ul {
+  list-style: none;
+}
+.presentation_container h2 {
+  text-transform: uppercase;
   font-weight: bold;
 }
 .presentation_text ul {
