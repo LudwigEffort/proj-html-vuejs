@@ -113,12 +113,29 @@
           <div class="col">
             <div class="speaker_card">
               <img
-                class="img-fluid"
+                class="img-fluid speaker_img"
                 src="../assets/img/speaker-6.jpg"
                 alt=""
               >
               <h4>Patrick Spencer</h4>
               <p>S&P Analyzer</p>
+              <!-- <div class="img_hover">
+                <font-awesome-icon
+                  icon="fa-brands fa-square-facebook"
+                  size="2xl"
+                  pull="left"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-square-twitter"
+                  size="2xl"
+                  pull="left"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-linkedin"
+                  size="2xl"
+                  pull="left"
+                />
+              </div> -->
             </div>
           </div>
           <div class="col">
@@ -575,6 +592,19 @@ export default {
 }
 .speakers_title_container {
   margin-bottom: 1.5rem;
+}
+.speaker_img {
+  position: relative;
+}
+.img_hover {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 20;
+}
+.speakers_container .speaker_img:hover {
+  cursor: pointer;
+  filter: blur(2px);
 }
 .speaker_card img {
   border-radius: 5px;
