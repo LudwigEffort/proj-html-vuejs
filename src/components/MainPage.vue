@@ -114,44 +114,44 @@
             <div class="speaker_card">
               <img
                 class="img-fluid"
-                src="../assets/img/speaker-1.jpg"
+                src="../assets/img/speaker-6.jpg"
                 alt=""
               >
-              <h4>Tizio Caio</h4>
-              <p>Boolflix CEO</p>
+              <h4>Patrick Spencer</h4>
+              <p>S&P Analyzer</p>
             </div>
           </div>
           <div class="col">
             <div class="speaker_card">
               <img
                 class="img-fluid"
-                src="../assets/img/speaker-1.jpg"
+                src="../assets/img/speaker-5.jpg"
                 alt=""
               >
-              <h4>Tizio Caio</h4>
-              <p>Boolflix CEO</p>
+              <h4>Janet Jones</h4>
+              <p>Newyork Post's GM</p>
             </div>
           </div>
           <div class="col">
             <div class="speaker_card">
               <img
                 class="img-fluid"
-                src="../assets/img/speaker-1.jpg"
+                src="../assets/img/speaker-4.jpg"
                 alt=""
               >
-              <h4>Tizio Caio</h4>
-              <p>Boolflix CEO</p>
+              <h4>Michael Dover</h4>
+              <p>Starbuck's CEO</p>
             </div>
           </div>
           <div class="col">
             <div class="speaker_card">
               <img
                 class="img-fluid"
-                src="../assets/img/speaker-1.jpg"
+                src="../assets/img/speaker-3.jpg"
                 alt=""
               >
-              <h4>Tizio Caio</h4>
-              <p>Boolflix CEO</p>
+              <h4>Angelina Holy</h4>
+              <p>Maxii's Manager</p>
             </div>
           </div>
         </div>
@@ -308,7 +308,7 @@
         <div class="col text-start">
           <img
             class="img-fluid"
-            src="../assets/img/photodune-7770665-two-white-coffee-mug-with-diy-decoration-o.jpg"
+            src="../assets/img/photodune-8797753-multiethnic-people-with-startup-business-t.jpg"
             alt=""
           >
           <p>03 Dec 2013 / 2 Comments</p>
@@ -325,7 +325,7 @@
         <div class="col text-start">
           <img
             class="img-fluid"
-            src="../assets/img/photodune-7770665-two-white-coffee-mug-with-diy-decoration-o.jpg"
+            src="../assets/img/photodune-8522811-speaker-at-business-conference-and-present.jpg"
             alt=""
           >
           <p>03 Dec 2013 / 2 Comments</p>
