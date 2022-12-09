@@ -258,13 +258,19 @@
     <!-- Fifth part (location) -->
     <div class="location_container">
       <div class="container container-lg text-center p-5">
-        <h1>Location</h1>
-        <h2>GD Building, Grand Conferece Room</h2>
-        <h6>11 GD Building, River Mail, new yourk, USA 8879</h6>
-        <p>Check For Accommodatiosn Here</p>
-        <div class="contacts">
-          <span>+1-112-222-3344</span>
-          <span>contact@thekeynotetheme.com</span>
+        <div class="row row-cols-auto justify-content-center">
+          <div class="col">
+            <h1>Location</h1>
+            <h2>GD Building, Grand Conferece Room</h2>
+            <h6>11 GD Building, River Mail, new yourk, USA 8879</h6>
+            <p>Check For Accommodatiosn Here</p>
+          </div>
+          <div class="col">
+            <div class="contacts">
+              <span><font-awesome-icon icon="fa-solid fa-phone" /><p>+1-112-222-3344</p></span>
+              <span><font-awesome-icon icon="fa-solid fa-envelope" /><p>contact@thekeynotetheme.com</p></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -642,15 +648,29 @@ export default {
 .location_container h6 {
   margin-bottom: 1.5rem;
 }
+.location_container h6:before {
+  content: "\f124";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -2.3em;
+  width: 2.3em;
+  color: white;
+}
 .location_container p {
   color: #F62B0A;
   margin-bottom: 2.5rem;
 }
 .contacts {
+  max-width: fit-content;
   border-top: 2px solid white;
 }
 .contacts span {
   margin: 0 1rem;
+}
+.contacts p {
+  color: white;
+  display: inline;
+  margin-left: 10px;
 }
 .tickets_container {
   background-image: url(../assets/img/ticket-bg.jpg);
