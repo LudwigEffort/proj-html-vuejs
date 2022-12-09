@@ -4,7 +4,7 @@
       <div class="container container-lg p-5">
         <div class="row row-cols-4">
           <div class="col">
-            <h4>About US</h4>
+            <h6>About US</h6>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Aspernatur autem iste, quis corporis minima quibusdam?
@@ -42,7 +42,7 @@
             </div>
           </div>
           <div class="col">
-            <h4>Recent news</h4>
+            <h6>Recent news</h6>
             <ul>
               <li>Lorem ipsum dolor sit amet.</li>
               <li>Lorem ipsum dolor sit amet.</li>
@@ -52,7 +52,7 @@
             </ul>
           </div>
           <div class="col">
-            <h4>Get your seat!</h4>
+            <h6>Get your seat!</h6>
             <p>
               Book for your seat before it's too rate.
               <br> We provide variety of ticekt option.
@@ -62,7 +62,7 @@
             </button>
           </div>
           <div class="col">
-            <h4>Gallery from last year</h4>
+            <h6>Gallery from last year</h6>
             <div class="row row-cols-4 g-2">
               <div class="col">
                 <img
@@ -180,6 +180,14 @@ footer {
 }
 .footer_container {
   background-color: #212121;
+}
+.footer_container h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer_container button {
+  border-radius: 0;
+  border-bottom: 2px solid #A72510;
 }
 .copyright_container {
   background-color: #161616;
