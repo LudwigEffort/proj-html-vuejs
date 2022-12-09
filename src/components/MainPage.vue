@@ -214,20 +214,27 @@
                   <p>26 May 2016</p>
                 </div>
               </div>
+              <div class="col-2 border-start border-end border-dark program_day" />
             </div>
           </div>
           <div class="program_content">
             <div class="row p-5">
               <div class="col-3">
-                <div>
-                  <p>09:00 - 10:30</p>
-                  <p>Rome</p>
-                  <p>Laurence Francis</p>
-                </div>
+                <ul>
+                  <li><font-awesome-icon icon="fa-regular fa-clock" /><p>09:00 - 10:30</p></li>
+                  <li><font-awesome-icon icon="fa-solid fa-location-arrow" /><p>London</p></li>
+                  <li>
+                    <font-awesome-icon icon="fa-solid fa-user" />
+                    <a
+                      href="#"
+                      class="link-primary"
+                    >View Full Program</a>
+                  </li>
+                </ul>
               </div>
               <div class="col-9">
                 <div>
-                  <h1>Welcoming and introduction</h1>
+                  <h2>Welcoming and introduction</h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempore mollitia nemo debitis laboriosam facere voluptas.
@@ -569,18 +576,45 @@ export default {
 .speaker_card p {
   font-style: italic;
 }
+.program_title {
+  margin-bottom: 1.5rem;
+}
 .program_title p {
   font-size: 14px;
 }
-.program_bar  {
+.program_title a {
+  text-decoration: none;
+  font-style: italic;
+}
+.program_day  {
   background-color: #F62B0A;
   color: white;
 }
 .program_day {
   padding: 1rem 1.15rem;
 }
-.program_content {
+.program_day:hover {
+  background-color: #A72510;
+  cursor: pointer;
+}
+.program_content .row {
   background-color: #F3F3F3;
+}
+.program_content ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+.program_content ul p {
+  display: inline;
+  margin-left: 10px;
+}
+.program_content ul a {
+  text-decoration: none;
+  display: inline;
+  margin-left: 10px;
+}
+.program_content h2 {
+  text-transform: uppercase;
 }
 .map_container {
   height: 500px;

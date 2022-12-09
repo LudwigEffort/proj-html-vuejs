@@ -2,7 +2,8 @@ import Vue from 'vue';
 
 import 'bootstrap';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faLocationArrow, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
 import {
   faTwitter, faTwitterSquare, faFacebookSquare, faLinkedin, faGooglePlusSquare, faPinterestSquare, faRedditSquare,
 } from '@fortawesome/free-brands-svg-icons';
@@ -20,6 +21,9 @@ library.add(
   faGooglePlusSquare,
   faPinterestSquare,
   faRedditSquare,
+  faClock,
+  faLocationArrow,
+  faUser,
 );
 Vue.component('FontAwesomeIcon', FontAwesomeIcon);
 
