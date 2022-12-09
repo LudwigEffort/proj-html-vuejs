@@ -275,10 +275,10 @@
       </div>
     </div>
     <!-- Sixth part (recent news) -->
-    <div class="container container-lg text-center p-5">
-      <div class="row row-cols-auto align-items-center justify-content-between">
+    <div class="container container-lg text-center p-5 recent_news_container">
+      <div class="row row-cols-auto align-items-center justify-content-between recent_news_title">
         <div class="col">
-          <h2>Recent News</h2>
+          <h3>Recent News</h3>
         </div>
         <div class="col">
           <a
@@ -311,8 +311,8 @@
             src="../assets/img/photodune-7770665-two-white-coffee-mug-with-diy-decoration-o.jpg"
             alt=""
           >
-          <p>03 Dec 2013 / 0 Comments</p>
-          <h4>Sedial Eiusmod Tempor</h4>
+          <p>03 Dec 2013 / 2 Comments</p>
+          <h4>Donec Luctus Imperdiet</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Magni quisquam molestias maxime dolore dolorem voluptatem!
@@ -328,8 +328,8 @@
             src="../assets/img/photodune-7770665-two-white-coffee-mug-with-diy-decoration-o.jpg"
             alt=""
           >
-          <p>03 Dec 2013 / 0 Comments</p>
-          <h4>Sedial Eiusmod Tempor</h4>
+          <p>03 Dec 2013 / 2 Comments</p>
+          <h4>Magna pars studiorum</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Magni quisquam molestias maxime dolore dolorem voluptatem!
@@ -671,6 +671,21 @@ export default {
   color: white;
   display: inline;
   margin-left: 10px;
+}
+.recent_news_title {
+  margin-bottom: 1.5rem;
+}
+.recent_news_title h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.recent_news_container a {
+  text-decoration: none;
+  font-style: italic;
+}
+.recent_news_container h4 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .tickets_container {
   background-image: url(../assets/img/ticket-bg.jpg);
