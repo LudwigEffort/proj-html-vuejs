@@ -194,7 +194,25 @@ header {
   font-style: italic;
 }
 .header_info_container h4:before {
-  content: "\f099";
+  content: "\f091";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: lightgrey;
+  font-size: 1.5rem;
+}
+.header_info_container :nth-child(2) h4:before {
+  content: "\f0e7";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: lightgrey;
+  font-size: 1.5rem;
+}
+.header_info_container :nth-child(3) h4:before {
+  content: "\3f";
   font-family: FontAwesome;
   display: inline-block;
   margin-left: -1.3em;
