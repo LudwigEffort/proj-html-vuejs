@@ -756,4 +756,12 @@ export default {
 .sponsors_container {
   background-color: #F3F3F3;
 }
+.sponsors_container h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.sponsors_container p {
+  margin-bottom: 1.5rem;
+}
 </style>
