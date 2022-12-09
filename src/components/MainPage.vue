@@ -97,7 +97,7 @@
     <!-- Second part (speakers) -->
     <div class="speakers_container">
       <div class="container container-lg text-center py-5">
-        <div class="row row-cols-auto justify-content-between">
+        <div class="row row-cols-auto justify-content-between speakers_title_container">
           <div class="col">
             <h2>Speakers</h2>
           </div>
@@ -117,7 +117,7 @@
                 src="../assets/img/speaker-1.jpg"
                 alt=""
               >
-              <h1>Tizio Caio</h1>
+              <h4>Tizio Caio</h4>
               <p>Boolflix CEO</p>
             </div>
           </div>
@@ -128,7 +128,7 @@
                 src="../assets/img/speaker-1.jpg"
                 alt=""
               >
-              <h1>Tizio Caio</h1>
+              <h4>Tizio Caio</h4>
               <p>Boolflix CEO</p>
             </div>
           </div>
@@ -139,7 +139,7 @@
                 src="../assets/img/speaker-1.jpg"
                 alt=""
               >
-              <h1>Tizio Caio</h1>
+              <h4>Tizio Caio</h4>
               <p>Boolflix CEO</p>
             </div>
           </div>
@@ -150,7 +150,7 @@
                 src="../assets/img/speaker-1.jpg"
                 alt=""
               >
-              <h1>Tizio Caio</h1>
+              <h4>Tizio Caio</h4>
               <p>Boolflix CEO</p>
             </div>
           </div>
@@ -547,6 +547,27 @@ export default {
 }
 .speakers_container {
   background-color: #F3F3F3;
+}
+.speakers_container h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.speakers_container button {
+  margin-left: 5px;
+}
+.speakers_title_container {
+  margin-bottom: 1.5rem;
+}
+.speaker_card img {
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.speaker_card h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.speaker_card p {
+  font-style: italic;
 }
 .program_title p {
   font-size: 14px;
